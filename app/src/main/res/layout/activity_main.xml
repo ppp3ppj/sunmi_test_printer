@@ -19,7 +19,16 @@
             android:layout_height="wrap_content"
             android:text="Test Print"
             tools:ignore="HardcodedText" />
-
+        <TextView
+            android:id="@+id/tv_status_printer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status Printer"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="116dp" />
     </LinearLayout>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
